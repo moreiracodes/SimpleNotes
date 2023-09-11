@@ -51,6 +51,8 @@ def db_read(db_conn, query, params=None):
 
 
 def db_write(db_conn, query, params=None, try_create_table=False):
+    # db_write receive a db connection function to be
+    # possible pass a mocking db on tests
     try:
 
         connection, cur = db_conn()
