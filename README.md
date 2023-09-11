@@ -1,5 +1,6 @@
 # SimpleNotes
 
+![Usage message](usage.jpg)
 ## In this program, a CRUD, was used:
 
 * Tests with pytest 
